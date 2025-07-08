@@ -16,6 +16,18 @@ rm -rf ${buildPath}
 echo "- copy current instance from [${srcPath}]"
 cp -rf ${srcPath} ${buildPath}
 
+
+echo "- remove gitignore ...."
+rm ${buildPath}"/libs/.gitignore"
+
+
+echo "- copy local node modules"
+rm ${buildPath}"/libs/node_modules/otplc"
+cp -rf "/OT/OTNPM/otplc" ${buildPath}"/libs/node_modules/"
+rm ${buildPath}"/libs/node_modules/otmHH"
+cp -rf "/OT/OTNPM/otmHH" ${buildPath}"/libs/node_modules/"
+
+
 echo "- remove all sites"
 rm -rf ${buildPath}"/sites"
 mkdir ${buildPath}"/sites"
