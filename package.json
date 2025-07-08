@@ -1,0 +1,25 @@
+{
+  "name": "node-yss",
+  "version": "0.0.1",
+  "description": "Yss from oiyshTerminal in nodejs.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "./mkPrebuild.sh",
+    "mkPackage": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yOyOeK1/node-yss.git"
+  },
+  "keywords": [
+    "oiyshTerminal",
+    "ot",
+    "yss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yOyOeK1/node-yss/issues"
+  },
+  "homepage": "https://github.com/yOyOeK1/node-yss#readme"
+}
