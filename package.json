@@ -1,7 +1,8 @@
 {
   "name": "node-yss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Yss from oiyshTerminal in nodejs.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "./mkPrebuild.sh",
