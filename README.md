@@ -5,18 +5,15 @@ Yss as a part of oiyshTerminal hosted in nodejs. So it's posible to get assets b
 ### part of a oiyshTerminal
 
 Using enetial part of oiyshTerminal *yss*. It's a set of html, js, and other goot files to be hosted as a set of helping tool to have "sceens player".
-*site* - is like sceen with it's own aproche. It can be Html, svg, obj, ...
+*site* - is like sceen with it's own aproche. It can be Html, svg, obj, gbl, ...
 
 more is comming
 
-
 ### Information
 
-What is yss? [link to old wiki ....](https://github.com/yOyOeK1/oiyshTerminal/wiki/otdm-yss)
+* hat is yss? [link to old wiki ....](https://github.com/yOyOeK1/oiyshTerminal/wiki/otdm-yss)
 
-
-
-
+* how to add sites [link to wiki...](https://github.com/yOyOeK1/oiyshTerminal/wiki/yss-site-example)
 
 
 
