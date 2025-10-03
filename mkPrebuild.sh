@@ -57,6 +57,10 @@ echo "- copy test_functions ...."
 cp -rf ${srcPath}"/sites/test_functions" \
   ${buildPath}"/sites/"
 
+echo "- copy multiSVG ...."
+cp -rf ${srcPath}"/sites/multiSVG" \
+  ${buildPath}"/sites/"
+
 
 
 echo "-------- RC DONE"

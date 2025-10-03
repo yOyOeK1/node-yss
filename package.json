@@ -1,6 +1,6 @@
 {
   "name": "node-yss",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Yss from oiyshTerminal in nodejs.",
   "main": "index.js",
   "scripts": {
