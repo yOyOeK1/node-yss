@@ -1,6 +1,6 @@
 {
   "name": "node-yss",
-  "version": "0.0.14",
+  "version": "0.19.900",
   "description": "Yss from oiyshTerminal in nodejs.",
   "main": "index.js",
   "scripts": {
@@ -18,13 +18,10 @@
     "ot",
     "yss"
   ],
-  "author": "",
+  "author": "Bartlomiej Ceglik <yoyoek@wp.pl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yOyOeK1/node-yss/issues"
   },
-  "homepage": "https://github.com/yOyOeK1/node-yss#readme",
-  "devDependencies": {
-    "vite": "^7.2.2"
-  }
+  "homepage": "https://github.com/yOyOeK1/node-yss#readme"
 }
