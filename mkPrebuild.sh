@@ -1,6 +1,6 @@
 echo "---------------------"
 echo "---------------------"
-
+set -e
 
 cowsay -f moose "HEllow from pre build rc !"
 
@@ -20,7 +20,15 @@ cp -rf ${srcPath} ${buildPath}
 echo "- remove gitignore ...."
 rm ${buildPath}"/libs/.gitignore"
 
+echo "- fonts stuff ...."
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/metadata"
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/js"
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/scss"
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/svgs-full"
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/sprites"
+rm -rf ${buildPath}"/libs/fontawesome-free-7.0.1-web/sprites-full"
 
+ 
 echo "- copy local node modules"
 rm -rf ${buildPath}"/libs/node_modules"
 mkdir ${buildPath}"/libs/node_modules"
